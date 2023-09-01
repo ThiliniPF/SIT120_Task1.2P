@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href ="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design Example</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Responsive Web Design</h1>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>Welcome to this responsive website!</h2>
+            <p>
+                Responsive web design is an approach to web development that aims to create websites and web applications that adapt and respond to various screen sizes and devices. This design prioritizes providing an optimal user experience, regardless of whether the user is accessing the site on a desktop computer, laptop, tablet, smartphone, or any other device with internet capabilities.
+            </p>
+            <img src="https://www.w3schools.com/css/img_temp_band.jpg">
+        </div>
+    </div>
+
+    <script>
+        // String methods
+        const str = "Hello, World!";
+        console.log("String Length:", str.length);
+        console.log("Uppercase:", str.toUpperCase());
+        console.log("Substring:", str.substring(0, 5));
+        console.log("Replace:", str.replace("World", "Universe"));
+        console.log("Split:", str.split(","));
+
+        // Number methods
+        const num = 3.14159265;
+        console.log("Fixed to 2 decimal places:", num.toFixed(2));
+        console.log("Absolute value:", Math.abs(num));
+        console.log("Rounded up:", Math.ceil(num));
+        console.log("Rounded down:", Math.floor(num));
+        console.log("Random number between 1 and 10:", Math.floor(Math.random() * 10) + 1);
+
+        // Array methods
+        const universities = ["Deakin", "Monash", "RMIT"];
+        console.log("Array Length:", universities.length);
+        console.log("First element:", universities[0]);
+        console.log("Last element:", universities[universities.length - 1]);
+        universities.push("La Trobe");
+        console.log("After Push:", universities);
+        universities.pop();
+        console.log("After Pop:", universities);
+        console.log("Joined elements:", universities.join(", "));
+
+        // Date methods
+        const currentDate = new Date();
+        console.log("Current Date:", currentDate);
+        console.log("Year:", currentDate.getFullYear());
+        console.log("Month:", currentDate.getMonth() + 1); 
+        console.log("Day:", currentDate.getDate());
+        console.log("Hours:", currentDate.getHours());
+        console.log("Minutes:", currentDate.getMinutes());
+
+        // Function methods
+        function greet(name) {
+            console.log("Hello, " + name + "!");
+        }
+        function add(x, y) {
+            return x + y;
+        }
+        greet("Chamika");
+        const sum = add(3, 5);
+        console.log("Sum:", sum);
+    </script>
+</body>
+</html>
